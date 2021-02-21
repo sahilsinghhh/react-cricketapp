@@ -12,8 +12,10 @@ const Navbar = () => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" >
-                        Live Score
+                       Cricket  Live Score
                     </Typography>
+
+                  
                    
                 </Toolbar>
             </AppBar>
