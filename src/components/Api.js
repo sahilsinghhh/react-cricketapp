@@ -30,7 +30,7 @@ class Api extends Component {
                     this.state.MatchList ?
                         this.state.MatchList.map((list) =>
                         
-                                <ul class="list-group list-group-flush border border-primary ">
+                                <ul className="list-group list-group-flush border border-primary ">
                                     <li className="list-group  mt-5 text-primary border" >Date-{list.dateTimeGMT}</li>
                                     <li className="list-group text-danger mt-2">Team-{list.['team-1']}</li>
                                     <li className="list-group">vs</li>
